@@ -1,6 +1,9 @@
 <?php
-require '../../includes/funciones.php'; 
 
+require '../../includes/config/database.php';
+$db = conectarDb();
+
+require '../../includes/funciones.php'; 
 incluirTemplate('header');
 ?>
 
